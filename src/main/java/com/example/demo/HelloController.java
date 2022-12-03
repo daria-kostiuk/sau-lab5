@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String emptyRequest() {
-        return "Empty get request created by Kostiuk Daria 124-19-2";
+        return "index";
     }
 
     @GetMapping("/parameter")
