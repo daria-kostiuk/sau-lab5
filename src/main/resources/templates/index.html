@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Main Page</title>
-    <link rel="stylesheet" th:href="@{/styles1.css}">
+    <link th:href="@{/styles/styles1.css}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Rochester&display=swap" rel="stylesheet">
 </head>
-<body>
-<header>
-    <span class="span_style first_span">Hi! This is a welcome page. Happy to see you here!</span>
-    <br><br>
-    <span class="span_style second_span">As you may see, this page is dedicated to the show - Rick and Morty</span>
-</header>
-<main>
-    <div class="div_style first_div">
-        <p class="p_in_div_style">SHOW OVERVIEW</p>
-        <a th:href="learn_more">
-            <button>Learn more</button>
-        </a>
-    </div>
-    <div class="div_style">
-        <p class="p_in_div_style">WATCH ON NETFLIX</p>
-        <a th:href="@{https://www.netflix.com/ua/title/80014749}" target="_blank">
-            <button>Go to Netflix</button>
-        </a>
-    </div>
-</main>
-<footer class="footer_style">
-    <p><b>Written by Daria Kostiuk, group id: 124-19-1</b></p>
-</footer>
-</body>
+    <body>
+        <div class="left">
+            <div class="main__left-content">
+                <div class="left-content__header">
+                    <div class="left-content__name">Daria Kostiuk 124-19-2</div>
+                </div>
+                <div class="left-content__labels">
+                    <div class="left-content__title">
+                        We create your space better
+                    </div>
+                    <div class="left-content__subtitle">
+                        Our team creates comfortable spaces for our clients. We’ve been designing your everyday life and work through great ideas since 1999.
+                    </div>
+                </div>
+                <a href="https://dkostuk.herokuapp.com/portfolio?name=daria" class="left-content__get-started">
+                    Portfolio
+                </a>
+            </div>
+            <div class="main__right-content"></div>
+        </div>
+        <div class="footer">
+            <div class="footer__content">
+                <div class="footer__about">About studio</div>
+                <div class="footer__description">Interiart is an award-winning architecture and interior design practice based in NYC.
+                    We work internationally on projects of residential & commercial interior design that require a creative approach.
+                    Our talented and experienced designers leverage their knowledge and expertise to create unique and comfortable interiors for you.
+
+                    Our team knows that interior design can be stressful for the client and we do our best to make it as easy as possible.
+                    We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and enjoyable for our clients.
+                </div>
+            </div>
+        </div>
+    </body>
+
 </html>

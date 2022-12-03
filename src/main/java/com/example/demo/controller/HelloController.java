@@ -14,9 +14,9 @@ public class HelloController {
         return "index";
     }
 
-    @GetMapping("/parameter")
-    @ResponseBody
+    @GetMapping("/portfolio")
     public String requestWithParam(@RequestParam String name) {
-        return "Request with parameter created by " + name;
+
+        return "portfolio";
     }
 }
