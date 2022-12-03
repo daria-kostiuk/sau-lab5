@@ -5,7 +5,7 @@ body {
 
 .portfolio {
     background: #F4F4F4;
-    height: 84vh;
+    height: 102vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ body {
     gap: 30px;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0 135px;
+    padding: 0 135px 50px;
     justify-content: center;
 }
 
